@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bouncing balls</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- text displayed at the corner of the page -->
+    <section class="textDisplay">
+      <h1>Bouncing Balls</h1>
+      <span id="displayCount"></span>
+      <button id="modalButton">Instructions</button>
+      <p id="timer">Time: </p>
+    </section>
+
+    <!-- instructions pop window -->
+    <div id="modalView" class="modalWindow">
+      <div class="modalContent">
+        <button id="closeButton">X</button>
+        <header>
+          <h1>Instructions for the Game</h1>
+        </header>
+        <article>
+          <div class="info">
+            <h1>What is this?</h1>
+            <p>
+              This is a fun game in which you have to eat all balls. There is no time limit.
+              Press the restart button to play again and have fun.
+            </p>
+          </div>
+          <div class="buttonsInfo">
+            <h1>How to play?</h1>
+            <h3>Key Functions</h3>
+            <ul>
+              <h4>Movement</h4>
+              <li>W - Move Upwards</li>
+              <li>A - Move to Left</li>
+              <li>S - Move Downwards</li>
+              <li>D - Move to Right</li>
+
+              <h4>Ball Count</h4>
+              <li>B - Add More Balls</li>
+
+              <h4>Ball Size</h4>
+              <li>Q - Increase Your Ball Size</li>
+              <li>E - Decrease Your Ball Size</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+    
+    <!-- <iframe src="" frameborder="0"></iframe> -->
+    <canvas></canvas>
+    <section id="buttons">
+      <button>A</button>
+      <button>W</button>
+      <button>D</button>
+      <button>S</button>
+      <button>B</button>
+      <button>Q</button>
+      <button>E</button>
+      <button>R</button>
+    </section>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
