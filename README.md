@@ -8,7 +8,7 @@
 - I'll try to host the games on github pages and provide a link in the respective ```README.md``` file.
 - Feel free to fork this repo and create valid pull requests.
 - Games that I'll will be adding are:
-  - - [ ] Bounce Ball
+  - - [x] Bounce Ball
   - - [ ] Guess The Number
   
 ## Technologies Used
